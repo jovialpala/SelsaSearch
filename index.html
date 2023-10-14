@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Seksa</title>
+</head>
+<body>
+    <section id="header">
+        <div class="nav">
+            <ul>
+                <li><span class="gSType" onclick="gSTypeSel(this);"><a href="#">Search</a></span></li>
+                <li><span class="gSType" onclick="gSTypeSel(this);"><a href="#">Images</a></span></li>
+                <li><span class="gSType" onclick="gSTypeSel(this);"><a href="#">Videos</a></span></li>
+                <li><span class="gSType" onclick="gSTypeSel(this);"><a href="#">Mail</a></span></li>
+                <li><span class="gSType" onclick="gSTypeSel(this);"><a href="#">News</a></span></li>
+                <li><span class="gSType" onclick="gSTypeSel(this);"><a href="#">Maps</a></span></li>
+                <li><span class="gSType" onclick="gSTypeSel(this);"><a href="#">Calendar</a></span></li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="main">
+        <div class="ylxe">
+            <img src="Untitled.png" alt="logo" style="width: 427.344px;height: 220px;margin-top: 130px;">
+        </div>
+        <div class="ymfd">
+            <div class="center">
+                <form method="get" name="gSearchForm" id="gSearchForm" onsubmit="return redirectToSearchPage()">
+                    <table border="0" align="center" cellpadding="0" cellspacing="0" id="Container" class="ymi">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input type="text" name="q" autocomplete="off" maxlength="255" value="" id="q" class="q" style="
+                                    margin-top: 10px;
+                                    padding-top: 5px;
+                                    padding-bottom: 5px;
+                                ">
+                                </td>
+                                <td>
+                                    <button class=" button button4" type="submit" style="
+                                    margin-top: 10;
+                                    margin-top: 10px;
+                                    margin-left: 5px;
+                                    padding-bottom: 5px;
+                                    padding-left: 20px;
+                                    padding-top: 5px;
+                                    padding-right: 20px;
+                                ">Search</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="ran">
+            <ul>
+                <li><a class="chip" style="color: #888; text-decoration: none;" href="#">English</a></li>
+                <li><a class="chip" style="color: #888; text-decoration: none;" href="#">普通话</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer" style="position: absolute; bottom: 0;  text-align: center; padding: 10px;">
+            <hr style="color:#888888; bottom: 0; position: absolute;">
+            <img src="SelsaSearch.png" alt="SelsaSearchCopyright2023" style="width: 150px;">
+        </div>
+    </body>
+    </html>
+
+
+
+
+    
+</body>
+</html>
+
+
+<script>
+    // JavaScript function to redirect to search.html
+    function redirectToSearchPage() {
+        // Redirect the user to search.html
+        window.location.href = 'search.html';
+        return false; // Prevent the form from submitting here
+    }
+</script>
+
+<style>
+
+.footer {
+    height: 30px;
+    z-index: 1;
+
+    bottom: 0;
+}
+
+
+
+.button4:hover {background-color: #e7e7e7;}
+
+
+.center {
+        display: flex;
+        justify-content: center;
+}
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  height: 30px;
+  background: #2d2d2d;
+}
+
+li {
+  margin: 3px 6px; /* Adjust the margin to control the spacing */
+}
+
+.gSType,
+.divType,
+.gSType a,
+.divType a,
+li,
+ul {
+  display: inline-block;
+  line-height: 30px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #bbbbbb;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav ul {
+  text-align: left;
+  margin: 0 0 0 15px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+
+#header { 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+
+a:hover { 
+    color: white; 
+}
+
+
+
+
+.q {
+    width: 503px;
+    border: solid #aaa 1px;
+    padding: 5px 0 4px 9px;
+    padding: 7px 0 6px 9px;
+    font-size: 1em;
+    outline: none;
+}
+
+
+input {
+   text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+
+input[type="text" i] {
+    writing-mode: horizontal-tb !important;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+} 
+
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+.yhmibi {
+    background: #f0f0f0 no-repeat scroll 0 0;
+    color: #646464;
+    border: 1px solid #bbb;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 0 24px;
+    line-height: 30px;
+    height: 30px;
+    margin: 0 0 0 10px;
+   
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type="button" i] {
+    appearance: auto;
+    user-select: none;
+    white-space-collapse: preserve;
+    text-wrap: nowrap;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+input {
+    
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+
+</style>
